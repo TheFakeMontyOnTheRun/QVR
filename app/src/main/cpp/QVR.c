@@ -7,10 +7,10 @@
 #include <android/native_window_jni.h>	// for native window JNI
 #include <android/input.h>
 
-#include <qtypes.h>
-#include <quakedef.h>
-#include <menu.h>
-#include <cvar.h>
+#include "qtypes.h"
+#include "quakedef.h"
+#include "menu.h"
+#include "cvar.h"
 
 //All the functionality we link to in the DarkPlaces Engine implementation
 extern void QC_BeginFrame();
